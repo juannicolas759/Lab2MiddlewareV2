@@ -13,7 +13,7 @@ app.get('/', (req,res) => {
     const server  = instances[current]
     
     //current > instances.length ? current = 0 : current++
-    res.redirect(server)
+    res.redirect("server")
 })
 
 app.listen(3020)
